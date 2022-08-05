@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Idioms</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="app__buttons">
+        <button class="startOver">Start over</button>
+        <button class="randomize">Randomize</button>
+      </div>
+      <div class="app__container">
+        <div class="app__card-container--ang">
+          <div class="card-container__card--ang card"></div>
+          <div class="card-container__card--ang card"></div>
+          <div class="card-container__card--ang card"></div>
+          <div class="card-container__card--ang card"></div>
+        </div>
+        <div class="app__leaf">
+          <button id="shuffle" class="leaf__shuffle">Shuffle</button>
+        </div>
+
+        <div class="app__card-container--pl">
+          <div class="card-container__card--pl card"></div>
+          <div class="card-container__card--pl card"></div>
+          <div class="card-container__card--pl card"></div>
+          <div class="card-container__card--pl card"></div>
+        </div>
+      </div>
+      <footer class="app__points-container">
+        <h1 class="points-container__points">
+          Punkty: <span class="points__counter">0</span>
+        </h1>
+      </footer>
+    </div>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
